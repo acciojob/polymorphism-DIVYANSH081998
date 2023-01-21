@@ -8,22 +8,23 @@ public class Main {
         p.product(4.5, 6.2);
     }
 
-}
-class Product{
+
+public static class Product {
     public int product(int x, int y) {
-int sum = x*y;
-return sum ;
+        int sum = x * y;
+        return sum;
 
     }
+
     public int product(int x, int y, int z) {
-int sum1 = x * y * z;
-return  sum1;
+        int sum1 = x * y * z;
+        return sum1;
     }
+
     public double product(double x, double y) {
-        double sum3 = x*y;
-        return  sum3;
+        double sum3 = x * y;
+        return sum3;
     }
-
-
+}
 
 }
